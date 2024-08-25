@@ -1,0 +1,175 @@
+
+
+
+body{
+margin: 0px;
+padding: 0px;
+background: #DADADA ;
+}
+.container{
+margin-top: 4%;
+margin-left: 15%;
+width: 960px;
+padding: 5px;
+background: #DADADA ;
+display: flex;
+justify-content: center;
+height: 85vh;
+}
+.centrar{
+	width: 100%;
+	max-width: 960px;
+	background-color: #F3F5FC;
+	padding: 10px;
+
+}
+
+.text-input::placeholder {
+    color: #0A3871; /* Cambiar el color del placeholder a azul */
+	
+}
+.logo{
+	width: 100%;
+	float: left;
+	background:#F3F5FC;
+}
+.left{
+	float: left;
+	width: 70%;
+	height: 10% ;
+	border-radius: 24px;
+	background: #F3F5FC;
+	color: #0A3871;
+}
+
+.text-input{
+	color: #0A3871 !important;
+	margin-left: 20%;
+	margin-top: 5%;
+	width: 65%;
+	height: 80%;
+	font-size: 20px;
+	border: none;
+	outline: none;
+ background: #F3F5FC ;
+}
+
+.right{
+	float: right;
+	width: 33%;
+	height: 93%;
+	margin-top: -10%;
+	margin-right: 2%;
+	border-radius: 14px;
+	background:white;
+
+}
+.left-button{
+	float: left;
+	width: 40%;
+	height: 10%;
+	margin-top: 34%;
+	margin-left: 15%;
+	border-radius: 24px;
+	background:#f3f5fc ;
+	font-family: "Inter", sans-serif;
+    font-size: 4px;
+	font-weight: 150;
+	color:gray;
+	
+  
+}
+.logoA{
+margin-top: 2%;
+margin-left: 5%;
+height: 40px;
+float: inherit;
+}
+.titulo{
+	float: inherit;
+	margin-left: 20%;
+
+}
+
+#imgmu {
+	margin-left: 17%;
+	margin-top: 40%;
+	width: 70%;
+	height: auto;
+}
+#texto{
+	font-family:'Bold', sans-serif;
+	font-size: 19px;
+	font-style: inherit;
+	text-align: center;
+	color: #000000;
+	margin-left: 13%;
+	margin-right: 5%;
+
+}
+#texto2{
+	float: left;
+	margin-left: 10%;
+	margin-top: 1%;
+	color:#495057  ;
+	width: 80%;
+	height: 12%;
+	border:none;
+	outline: none;
+	font-size: 13px;
+	text-align: center;
+	font-family:'Bold', sans-serif;
+}
+#boton-encriptar{
+	float: left;
+	padding: 22px 22px;
+	width: 55%;
+	height: 50%;
+	border-radius: 15px;
+	margin-left: -5%;
+	margin-top: 2%;
+	background:#0A3871 ;
+	color: white;
+	border: 1px #0A3871;
+	display: flex; /* Usar Flexbox para centrar el texto */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center;
+	font-size: 10px;
+}
+#boton-desencriptar{
+	background:#D8DFE8 ;
+	color: #0A3871;
+	float: left;
+    padding: 22px 22px;
+	width: 55%;
+	height: 50%;
+	border-radius: 15px;
+	margin-left: 55%;
+	margin-top: -12%;
+	border: 1px solid #0A3871;
+	display: flex; /* Usar Flexbox para centrar el texto */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center;
+	font-size: 10px;
+}
+#copiar{
+	color: #0A3871;
+	margin-left: 10.5%;
+	margin-top: 141%;
+	padding: 22px;
+	width: 80%;
+	height: 10%;
+	background:white ;
+	border-radius: 15px;
+	display: none;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center;
+	font-size: 10px;
+	border: 1px solid #0A3871;
+	
+}
+footer{
+	margin-top: 25%;
+	font-size: 12px;
+    margin-left: 19%;
+}
